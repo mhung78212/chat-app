@@ -27,7 +27,7 @@ export default function AuthProvider({ children }) {
                 return;
             }
             setIsLoading(false);
-            setIsSignOut(false)
+            setIsSignOut(true)
         });
 
         // Clean function
